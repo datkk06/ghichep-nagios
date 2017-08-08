@@ -1,5 +1,8 @@
 # Tổng quan về Nagios.
 
+![](/images/nagios.png)
+
+
 ## 1. Hệ thống giám sát mạng.
 
 Giám sát mạng là một thuật ngữ dùng để chỉ việc sử dụng liên tục một hệ thống (có thể là một chương trình hoặc một thiết bị) 
