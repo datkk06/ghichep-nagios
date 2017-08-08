@@ -4,7 +4,7 @@
 
 
 ======================================================
-
+<a name="top"></a>
 # Mục Lục.
 
 [1. Hệ thống giám sát mạng.](#1)</br>
@@ -193,7 +193,7 @@ thực hiện nhiệm vụ bổ sung, được thực hiện như một tiến t
 tự nhiên trên hệ thống Linux/* nix.
 
 <a name="2.4.2"></a>
-#### 2.4.2. Nagios Plugins.
+#### 2.4.2. Nagios Plugins. [top](#top)
 
 Nagios plugins là phần mở rộng độc lập để Nagios Core cung cấp ở mức độ thấp về cách theo dõi bất cứ điều gì và tất cả mọi thứ 
 với Nagios Core. Plugins hoạt động như các ứng dụng độc lập, nhưng thương được thiết kế để thực thi bởi Nagios Core.
@@ -204,7 +204,7 @@ Plugin có thể được biên dịch nhị phân (viết bằng C, C++, …) h
 Ngoài ra, còn có các thành phần Nagios Frontends, Nagios Configtools.
 
 <a name="2.5"></a>
-### 2.5. Cách thức hoạt động của nagios.
+### 2.5. Cách thức hoạt động của nagios. [top](#top)
 
 ![nagios-architect](/images/nagios-architect.png)
 
@@ -243,7 +243,7 @@ mạnh của Nagios là thông báo và tổng hợp báo cáo. Nagios sử dụ
 bạn về server Nagios. Công cụ này giúp cho thông tin gửi trên mạng được an toàn hơn vì nó được mã hóa và xác thực.
 
 <a name="2.6"></a>
-### 2.6. Mô tả về cách thức thực hiện kiểm tra của nagios.
+### 2.6. Mô tả về cách thức thực hiện kiểm tra của nagios. [top](#top)
 
 ![nagios-test](/images/nagios-test.png)
 
