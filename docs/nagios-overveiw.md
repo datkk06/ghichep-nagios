@@ -8,14 +8,14 @@
 # Mục Lục.
 
 [1. Hệ thống giám sát mạng.](#1)</br>
-[2. Tổng quan về Nagios.](#2)
-        - [2.1.Nagios là gì?](#2.1)
-        - [2.2. Một số chức năng chính của Nagios.](#2.2)
-        - [2.3. Đặc điểm của Nagios.](#2.3)
-        - [2.4. Kiến trúc của nagios.](#2.4)
-                - [2.4.1. Nagios core.](#2.4.1)
-                - [2.4.2. Nagios Plugins.](#2.4.2)
-        - [2.5. Cách thức hoạt động của nagios.](#2.5)
+[2. Tổng quan về Nagios.](#2)</br>
+        - [2.1.Nagios là gì?](#2.1)</br>
+        - [2.2. Một số chức năng chính của Nagios.](#2.2)</br>
+        - [2.3. Đặc điểm của Nagios.](#2.3)</br>
+        - [2.4. Kiến trúc của nagios.](#2.4)</br>
+                - [2.4.1. Nagios core.](#2.4.1)</br>
+                - [2.4.2. Nagios Plugins.](#2.4.2)</br>
+        - [2.5. Cách thức hoạt động của nagios.](#2.5)</br>
         - [2.6. Mô tả về cách thức thực hiện kiểm tra của nagios.](#2.6)
 
 
