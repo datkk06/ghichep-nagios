@@ -154,3 +154,35 @@ Mã nguồn tùy chỉnh
 - Không giới hạn truy cập vào mã nguồn.
 
 - Phát hành theo giấy phép GPL (General Public License_Giấy phép công cộng).
+
+### 2.4. Kiến trúc của nagios.
+
+Hệ thống Nagios gồm hai phần chính:
+
+#### 2.4.1. Nagios core.
+
+Nagios core là công cụ giám sát và cảnh báo, nó làm việc như các ứng dụng chính trên hàng trăm dự ansNagios được xây dựng. 
+Nó làm việc như là lịch trình sự kiện cơ bản, xử lý sự kiện,và quản lý thông báo cho các phần tử được theo dõi. Nó khắc họa 
+một sooss API (Application Programming Interface_Giao diện lập trình ứng dụng) được sử dụng để mở rộng khả năng của mình để 
+thực hiện nhiệm vụ bổ sung, được thực hiện như một tiến trình được viết bằng C vì lý do hiệu suất, và được thiết kế để chạy 
+tự nhiên trên hệ thống Linux/* nix.
+
+#### 2.4.2. Nagios Plugins.
+
+Nagios plugins là phần mở rộng độc lập để Nagios Core cung cấp ở mức độ thấp về cách theo dõi bất cứ điều gì và tất cả mọi thứ 
+với Nagios Core. Plugins hoạt động như các ứng dụng độc lập, nhưng thương được thiết kế để thực thi bởi Nagios Core.
+
+Plugins xử lý đối số dòng lệnh, đi về các doanh nghiệp thực hiện kiểm tra, và sau đó trả lại kết quả cho Nagios Core để xử lý tiếp. 
+Plugin có thể được biên dịch nhị phân (viết bằng C, C++, …) hoặc các bản thực thi (Perl, PHP,…).
+
+Ngoài ra, còn có các thành phần Nagios Frontends, Nagios Configtools.
+
+
+
+
+
+
+
+# Nguồn.
+
+- http://scorpionit.blogspot.com/2016/01/tim-hieu-va-trien-khai-dich-vu-giam-sat.html?q=nagios
