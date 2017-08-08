@@ -183,6 +183,8 @@ Ngoài ra, còn có các thành phần Nagios Frontends, Nagios Configtools.
 
 
 
+
+
 # Nguồn.
 
 - http://scorpionit.blogspot.com/2016/01/tim-hieu-va-trien-khai-dich-vu-giam-sat.html?q=nagios
