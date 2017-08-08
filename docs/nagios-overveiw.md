@@ -1,4 +1,4 @@
-#Tổng quan về Nagios.
+# Tổng quan về Nagios.
 
 ## 1. Hệ thống giám sát mạng.
 
