@@ -22,7 +22,7 @@
 =======================================================
 
 <a name="1"></a>
-## 1. Hệ thống giám sát mạng.
+## 1. Hệ thống giám sát mạng. [top](#top)
 
 Giám sát mạng là một thuật ngữ dùng để chỉ việc sử dụng liên tục một hệ thống (có thể là một chương trình hoặc một thiết bị) 
 để theo dõi tất cả các hoạt động của các thiết bị, các dịch vụ trong một hệ thống mạng.
@@ -47,10 +47,10 @@ can thiệp kịp thời, tránh ảnh hưởng đến hệ thống.
 - Tạo file log: thu được những thông tin về những thay đổi trong hệ thống.
 
 <a name="2"></a>
-## 2. Tổng quan về Nagios.
+## 2. Tổng quan về Nagios. [top](#top)
 
 <a name="2.1"></a>
-### 2.1.Nagios là gì?
+### 2.1.Nagios là gì? [top](#top)
 
 Nagios là một hệ thống giám sát mạnh mẽ cho phép các tổ chức xác định và giải quyết các vấn đề cơ sở hạ tầng CNTT trước khi chúng ảnh hướng đến quá trình kinh doanh quan trọng
 
@@ -88,7 +88,7 @@ Nagios hỗ trợ người quản trị trong việc  :
 - Tùy chọn giao diện web để xem tình trạng mạng hiện có, thông báo và lịch sử các vấn đề, đăng nhập tập tin,…
 
 <a name="2.2"></a>
-### 2.2. Một số chức năng chính của Nagios.
+### 2.2. Một số chức năng chính của Nagios. [top](#top)
 
 Cảnh báo: Nagios gửi cảnh báo khi có thành phần cơ sở hạ tầng bất ổn định và phục hồi, cung cấp cho các quản trị 
 viên thông báo của các sự kiện quan trọng. Cảnh báo có thể được gửi qua email, SMS, hay tùy chỉnh.
@@ -104,7 +104,7 @@ Bảo trì: Dự kiến thời gian ngừng làm việc ngăn cản các cảnh 
 Kế hoạch: Lập lịch đồ thị và báo cáo xu hướng và công suất cho phép bạn xách định sự cần thiết nâng cấp cơ sở hạ tầng trước khi xảy ra sự cố.
 
 <a name="2.3"></a>
-### 2.3. Đặc điểm của Nagios.
+### 2.3. Đặc điểm của Nagios. [top](#top)
 
 Giám sát toàn diện
 
@@ -179,12 +179,12 @@ Mã nguồn tùy chỉnh
 - Phát hành theo giấy phép GPL (General Public License_Giấy phép công cộng).
 
 <a name="2.4"></a>
-### 2.4. Kiến trúc của nagios.
+### 2.4. Kiến trúc của nagios. [top](#top)
 
 Hệ thống Nagios gồm hai phần chính:
 
 <a name="2.4.1"></a>
-#### 2.4.1. Nagios core.
+#### 2.4.1. Nagios core. [top](#top)
 
 Nagios core là công cụ giám sát và cảnh báo, nó làm việc như các ứng dụng chính trên hàng trăm dự ansNagios được xây dựng. 
 Nó làm việc như là lịch trình sự kiện cơ bản, xử lý sự kiện,và quản lý thông báo cho các phần tử được theo dõi. Nó khắc họa 
