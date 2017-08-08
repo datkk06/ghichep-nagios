@@ -7,7 +7,7 @@
 
 # Mục Lục.
 
-[1. Hệ thống giám sát mạng.](#1)
+[1. Hệ thống giám sát mạng.](#1)</br>
 [2. Tổng quan về Nagios.](#2)
         - [2.1.Nagios là gì?](#2.1)
         - [2.2. Một số chức năng chính của Nagios.](#2.2)
