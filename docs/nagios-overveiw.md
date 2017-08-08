@@ -179,7 +179,7 @@ Ngoài ra, còn có các thành phần Nagios Frontends, Nagios Configtools.
 
 ### 2.5. Cách thức hoạt động của nagios.
 
-![nagios-architect]()
+![nagios-architect](/images/nagios-architect.png)
 
 Nagios có 5 cách thực thi các hành động kiểm tra:
 
@@ -218,7 +218,7 @@ bạn về server Nagios. Công cụ này giúp cho thông tin gửi trên mạn
 
 ### 2.6. Mô tả về cách thức thực hiện kiểm tra của nagios.
 
-![nagios-test]()
+![nagios-test](/images/nagios-test.png)
 
 Hình trên cho ta cái nhìn tổng quan về các cách thức kiểm tra dịch với Nagios. Có 5 client được giám sát bằng 5 cách thức khác nhau:
 
